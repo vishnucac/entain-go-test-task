@@ -14,6 +14,13 @@ Technologies: Golang + Postgres.
 - Docker & Docker Compose installed
 
 ### Run the service
-```bash
+
+#### Run with Makefile
 make run
+
+#### How to run manually:
+docker compose up -d --build
+
+#### Stop the application:
+docker compose down
  
